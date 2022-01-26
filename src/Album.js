@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import requests from './request';
 
+
 function Album() {
     const [albums, setAlbums] = useState([])
 
