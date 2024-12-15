@@ -8,7 +8,7 @@ function Photos() {
     useEffect(() => {
         const fetchData = async () => {
             const response = await axios.get(requests.jsonPhotos)
-            console.log(response.data);
+            // console.log(response.data);
             setPhotos(response.data)
         }
         fetchData()

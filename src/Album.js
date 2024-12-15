@@ -9,7 +9,7 @@ function Album() {
     useEffect(() => {
         const fetchData = async () => {
             const response = await axios.get(requests.jsonAlbums)
-            console.log(response.data);
+            // console.log(response.data);
             setAlbums(response.data);
         }
         fetchData()
